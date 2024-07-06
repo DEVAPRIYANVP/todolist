@@ -1,0 +1,44 @@
+/* Card.css */
+@keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #c40909;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(45deg, #899f86, #56965d, #16e368);
+    background-size: 200% 200%;
+    animation: backgroundAnimation 10s ease infinite;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 16px;
+    backdrop-filter: blur(10px); /* Optional: To make text readable on animated background */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }

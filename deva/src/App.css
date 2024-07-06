@@ -1,0 +1,61 @@
+
+.headicons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+.headicons li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 9% 16px;
+  text-decoration: none;
+}
+
+.headicons li a:hover {
+  background-color: #dc1d1d;
+
+}.headicons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.headicons li {
+  float: left;
+}
+
+
+
+.headicons li a:hover {
+  background-color: #ed2929;
+}
+.headicons
+{
+  color: rgb(62, 213, 163);
+  flex: auto;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  color: #000;
+}
